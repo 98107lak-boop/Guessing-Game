@@ -13,6 +13,7 @@ while (a!=n):
         print("Lower number please")
         guesses+=1
     elif(a<n):
-        print("HIgher number please")
+        print("Higher number please")
         guesses+=1
-print(f"YOU have guessed the number {n} correctly in {guesses} attempts")        
+print(f"YOU have guessed the number {n} correctly in {guesses} attempts")  
+
